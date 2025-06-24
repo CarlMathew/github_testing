@@ -6,6 +6,6 @@ def test_function(number):
 
 
 def add_new_function(number):
-    add_10 = 10 + number
+    add_10 = 10 + number // 2 + 5
 
     return add_10
